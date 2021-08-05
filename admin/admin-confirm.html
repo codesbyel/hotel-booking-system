@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>adminconfirmation</title>
+    <link rel="stylesheet" href="confirmation.css">
+    <link rel="stylesheet" href="">
+    <script src="confirmation.js"></script>
+  
+</head>
+<body>
+
+    
+    <div class="topnav" id="myTopnav">
+            <a href="../home/homepage.html" class="active">Home</a>
+            <a href="#book">Book</a>
+            <a href="#facilities">Facilities</a>
+            <a href="../home/contact/contact.html">Contact</a>
+    
+            <div class="login">   
+                    <button class="dropbtn">Admin 
+                      <i class="fa fa-fw fa-user"></i>
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Profile</a>
+                      <a href="#">Sign Out</a>
+                    </div></div>
+           
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+    
+        <!--Footer-->
+        <div id="footer">
+                <a href="http://www.facebook.com">
+                    <img src="img/facebooklogo.png" alt="facebooklogo" style="width:50px;height:50px;border:0;">
+                </a>
+                <a href="http://www.instagram.com">
+                    <img src="img/instagramlogo.png" alt="instagramlogo" style="width:50px;height:50px;border:0;">
+                </a>
+                <a href="http://www.twitter.com">
+                    <img src="img/twitterlogo.png" alt="twitterlogo" style="width:50px;height:50px;border:0;">
+                </a>
+    
+        </div>
+          
+        <div class="title">
+          <h2>Administrator Confirmation</h2>
+        </div>
+    
+       
+    
+        <div class="container">
+          <div class="tab-cont">
+             <!-- <button class="but" onclick="set(event, 'booking')">Booking</button> -->
+              <button class="but" onclick="set(event, 'profile')">Profile</button>
+              <button class="but" onclick="set(event, 'history')">History</button>
+              <a href="admin-confirm.html">
+              <button class="but" onclick="set(event, 'confirmation booking')">Confirmation Booking</button></a>
+          </div>
+    
+          <div class="tab-content" id="profile">
+              <h2>Profile Details</h2>
+              <div class="settings">
+  <form class="account-settings" action="">
+      <div class="input">
+        <label for="name">Name</label> <input type="text"/>
+      </div>
+
+      <div class="input">
+        <label for="Ic No">Ic No</label> <input type="text"/>
+      </div>
+
+    <div class="input input--wide">
+      <label for="phone no">Phone No</label> <input type="text"/>
+    </div>
+
+    <div class="input input--wide">
+      <label for="email">Email</label> <input type="text"/>
+    </div>
+
+    <div class="input input--wide">
+      <label for="Room No">Room No</label> <input type="text"/>
+    </div>
+
+    <div class="input input--wide">
+      <label for="Duration">Duration</label> <input type="text"/>
+    </div>
+
+    <div class="input input--wide">
+      <label for="Payment">Payment</label> <input type="text"/>
+    </div>
+
+         <!-- back and cancel save -->
+         <button class="btnn">Back</button>
+        <button class="btnn">Save</button>
+        
+    </div>
+    </form>
+        
+              
+         
+          
+ 
+              </div>
+          </div>
+    
+        
+    
+      </div>
+        
+    </div>
+  
+    
+</body>
+</html>

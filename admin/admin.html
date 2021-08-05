@@ -1,0 +1,89 @@
+<html>
+	<head>
+		
+<link rel="stylesheet" href="admin.css">
+<script src="admin.js"></script>
+	</head>
+
+
+		
+
+	<body style="background-color:wheat;"  onload="load()">
+		
+
+		</div>
+
+		<ul>
+				<li><a href="../home/homepage.html">Home</a></li>
+				<li><a href="#book">Book</a></li>
+				<li><a href="#facilities">Facilities</a></li>
+				<li><a href="../home/contact/contact.html">Contact Us</a></li>	
+				<li style="float:right"><a class="log" href="#login">Login</a></li>		
+	   </ul>
+		 <div class="page">
+			 <h2>Administrator Login Page</h2>
+		 </div>
+		<div class="outer" id="outer">
+		
+			<div class="boxx" id="login">
+				<h2>Admin Login</h2>
+			
+				<form method="POST" action="">
+					
+					<label for="email">Email ID&nbsp;&nbsp;&nbsp;</label>
+					<input  type="email" class="box" name="email" id="email" value=""placeholder="Email ID" onkeyup="validation()" ><br>
+					<p style="color:red;" id="error"><br></p>
+					
+					<label for="password">Password&nbsp;&nbsp;&nbsp;</label>
+					<input type="text"  class="box" name="password" id="password" value=""placeholder="Password"><br><br><br>
+
+					<input class="button" type="button" value="Register &nbsp;" onclick="register()">
+
+					<input type="submit" class="button"  value="Submit" onclick="Redirect()"> 
+					
+				</form>
+			</div>
+
+
+			<div class="boxx" id="register">
+				<h2>Create New Account</h2>
+				
+				<form method="POST" action="">
+					
+				<label  for="fname">First Name&nbsp;&nbsp;&nbsp;</label>
+				<input class="box" type="text" name="fname" id="fname" value="" placeholder="First Name"><br><br><br>
+				
+				<label for-="lname">Last Name&nbsp;&nbsp;&nbsp;</label>
+				<input class="box" type="text" name="lname" id="lname" value=""placeholder="Last Name"><br><br><br>
+				
+				<label for="email">Email ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+				<input class="box" type="email" name="email" id="email" value=""placeholder="Email ID"><br><br><br>
+				
+
+				<label for="password">Password&nbsp;&nbsp;&nbsp;</label>
+				<input class="box" type="text" name="password" id="password" value=""placeholder="Password"><br><br><br>
+
+				<input class="button" type="button" value="Login" onclick="login()">
+
+				<input class="button" type="submit" value="Submit"> 
+				</form>
+			</div>
+
+
+		</div>
+	<!--Footer-->
+    <div id="footer">
+		<a href="http://www.facebook.com">
+			<img src="img/facebooklogo.png" alt="facebooklogo" style="width:50px;height:50px;border:0;">
+		</a>
+		<a href="http://www.instagram.com">
+			<img src="img/instagramlogo.png" alt="instagramlogo" style="width:50px;height:50px;border:0;">
+		</a>
+		<a href="http://www.twitter.com">
+			<img src="img/twitterlogo.png" alt="twitterlogo" style="width:50px;height:50px;border:0;">
+		</a>
+
+</div>
+	</body>
+
+</html>

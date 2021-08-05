@@ -1,0 +1,151 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color:  	#f0f7da;
+    height:100%;
+}
+/* Navigation bar */
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #77ab59;
+  }
+  
+ .header li {
+    float: left;
+    
+  }
+  
+  .header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.3em;
+  }
+  
+  .header li a:hover {
+    background-color: #234d20;
+    -webkit-transition-duration: 0.7s;
+  }
+  /* ------------------------------------------------------------- */
+
+  /* Side Navigation Bar */
+  .sidenav {
+    height: 150vh;
+    width: 180px;
+    float:left;
+
+
+    background-color:#36802d;
+    overflow-x: hidden;
+    /* padding-top: 20px; */
+  }
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    /* font-size: 10px; */
+    color: #818181;
+    display: block;
+  }
+
+  .sidenav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  
+  .sidenav li a:hover {
+    background-color: #234d20;
+    -webkit-transition-duration: 0.7s;
+  }
+  /* ------------------------------------------------------------- */
+
+  .mainbody{
+      margin-left: 190px;
+      padding :10px;
+      float:left;
+      width:auto;
+      outline:solid 1px black;
+      position: relative;
+    
+  }
+
+#bodytitle{
+  padding-left:30px;
+  font-size: 1.5em;
+}
+
+#bodycontent::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.room-container{
+    display:flex;
+    width:800px;
+    height:270px;
+    flex-direction: row;
+  
+    margin: 40px;
+}
+#roomimg{
+    width:300px;
+    height:250px;
+}
+
+#roomimg img{
+  max-width: 350px;
+    max-height: 300px;
+}
+#room-info{
+    padding:10px;
+    line-height: 2em;
+    margin-left: 50px;
+}
+
+.footer
+{
+  background-color: #234d20;
+  width:100%;
+  height:15vh;
+  display:block;
+  text-align: center;
+}
+
+.footer img{
+  margin:15px;;
+  display: inline;
+ 
+}
+
+#refresh-btr{
+  height:40px;
+  width:120px;
+  font-size: 1em;
+  border-radius: 30px;
+  border:none;
+  background-color: #36802d;
+  color:white;
+  position: absolute; 
+   left:735px;
+  
+}
+
+#refresh-btr:hover{
+  background-color: #77ab59;
+  color:black;
+}

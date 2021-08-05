@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>History</title>
+    <link rel="stylesheet" href="booking-history.css">
+    <script src="booking-history.js"></script>
+    
+</head>
+<body>
+
+    <!--NAVIGATION BAR HERE-->
+    <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#book">Book</a>
+            <a href="#facilities">Contact</a>
+            <a href="#contact">About</a>
+    
+            <div class="login">   
+              <button class="dropbtn">Account 
+                <i class="fa fa-fw fa-user"></i>
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Profile</a>
+                <a href="#">Sign Out</a>
+              </div>
+            </div> 
+           
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+    
+        <!--Footer-->
+        <div id="footer">
+                <a href="http://www.facebook.com">
+                    <img src="facebooklogo.png" alt="facebooklogo" style="width:50px;height:50px;border:0;">
+                </a>
+                <a href="http://www.instagram.com">
+                    <img src="instagramlogo.png" alt="instagramlogo" style="width:50px;height:50px;border:0;">
+                </a>
+                <a href="http://www.twitter.com">
+                    <img src="twitterlogo.png" alt="twitterlogo" style="width:50px;height:50px;border:0;">
+                </a>
+    
+        </div>
+          
+        <!--VERTICAL CONTENT HERE-->
+        <div class="welcome">
+          <h2>History</h2>
+        </div>
+    
+       
+    
+        <div class="container">
+          <div class="tab-cont">
+              <button class="but" onclick="set(event, 'booking')">Booking</button>
+              <button class="but" onclick="set(event, 'profile')">Profile</button>
+              <button class="but" onclick="set(event, 'history')">History</button>
+          </div>
+    
+          <div class="tab-content" id="booking">
+              <h2>My Booking</h2>
+              <p>This section is for Booking List.</p>
+          </div>
+          <div class="tab-content" id="profile">
+              <h2>Profile Details</h2>
+              <p>This section is for Profile.</p>
+    
+              <div class="settings">
+              
+        
+              </div>
+          </div>
+    
+          <div class="tab-content" id="history">
+              
+              
+<table>
+        <tr>
+          <th>Booking ID</th>
+          <th>Duration</th>
+          <th>Room Type</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>2432</td>
+          <td>7/3/19 - 9/3/19</td>
+          <td>Single Room</td>
+          <td>RM80</td>
+        </tr>
+        <tr>
+          <td>2329</td>
+          <td> 18/2/19 - 21/2/19 </td>
+          <td>Deluxe Double Room</td>
+          <td>RM135</td>
+        </tr>
+        <tr>
+          <td>2250</td>
+          <td>13/1/19 - 14/1/19</td>
+          <td>Family Room</td>
+          <td>RM250</td>
+        </tr>
+        
+      </table>
+
+
+          </div>
+    
+      </div>
+        
+    </div>
+    
+</body>
+</html>

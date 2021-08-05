@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Administrator Page</title>
+    <link rel="stylesheet" href="admin_page.css">
+    <script src="admin_page.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    
+
+    <!--NAVIGATION BAR HERE-->
+    <div class="topnav" id="myTopnav">
+            <a href="../home/homepage.html" class="active">Home</a>
+            <a href="#book">Book</a>
+            <a href="#facilities">About</a>
+            <a href="../home/contact/contact.html">Contact</a>
+    
+            <div class="login">   
+              <button class="dropbtn">Account 
+                <i class="fa fa-fw fa-user"></i>
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Profile</a>
+                <a href="#">Sign Out</a>
+              </div>
+            </div> 
+           
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+    
+        <!--Footer-->
+        <div id="footer">
+                <a href="http://www.facebook.com">
+                    <img src="facebooklogo.png" alt="facebooklogo" style="width:50px;height:50px;border:0;">
+                </a>
+                <a href="http://www.instagram.com">
+                    <img src="instagramlogo.png" alt="instagramlogo" style="width:50px;height:50px;border:0;">
+                </a>
+                <a href="http://www.twitter.com">
+                    <img src="twitterlogo.png" alt="twitterlogo" style="width:50px;height:50px;border:0;">
+                </a>
+    
+        </div>
+          
+        <!--VERTICAL CONTENT HERE-->
+        <div class="welcome">
+          <h2>Administrator Page Settings</h2>
+        </div>
+    
+       
+    
+        <div class="container">
+          <div class="tab-cont">
+             <!-- <button class="but" onclick="set(event, 'booking')">Booking</button> -->
+              <button class="but" onclick="set(event, 'profile')">Profile</button>
+              <button class="but" onclick="set(event, 'history')">History</button>
+          </div>
+    
+
+          <div class="tab-content" id="profile">
+              <h2>Profile Details</h2>
+            
+    
+              <div class="settings">
+              
+          <form class="account-settings" action="">
+              <div class="input">
+                <label for="firstname">First</label>
+                <input type="text"/>
+              </div>
+    
+              <div class="input">
+                <label for="firstname">Last</label>
+                <input type="text"/>
+              </div>
+    
+            <div class="input input--wide">
+              <label for="phone">Phone</label>
+              <input type="text"/>
+            </div>
+    
+            <div class="input input--wide">
+              <label for="email">Email</label>
+              <input type="text"/>
+            </div>
+    
+            <div class="input">
+               <label for="birth-month">Gender</label>
+                <select>
+                  <option>Male</option>
+                   <option>Female</option>
+                </select>
+
+                 <!-- Submit and cancel button -->
+                <input value="Submit" type="submit" />
+                <input value="Cancel" type="reset" />
+            </div>
+        </form>
+              </div>
+          </div>
+    
+          <div class="tab-content" id="history">
+              <h2>History</h2>
+              <p>No History yet.</p>
+          </div>
+    
+      </div>
+        
+    </div>
+    
+</body>
+</html>

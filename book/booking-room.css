@@ -1,0 +1,155 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color:  	#f0f7da;
+}
+/* Navigation bar */
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #77ab59;
+  }
+  
+ .header li {
+    float: left;
+    
+  }
+  
+  .header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.3em;
+  }
+  
+  .header li a:hover {
+    background-color: #234d20;
+    -webkit-transition-duration: 0.7s;
+  }
+/* ------------------------------------------------------------- */
+#filter{
+    width:60%;
+    margin:auto;
+    margin-top: 20px;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+    border:solid 5px #c9df8a;
+    border-radius: 25px;
+    
+}
+/* User Selection */
+.filter-text{
+    justify-self: center;
+    font-size: 1.3em;
+}
+
+.inputfield{
+    width:55%;
+    margin:auto;
+    border:none;
+    border-radius: 20px;
+    padding:10px;
+    background-color: #c9df8a;
+}
+
+button#search-btr{
+    background-color:  	#77ab59;
+    border:none;
+    border-radius: 30px;
+    width:80px;
+    height:40px;
+    font-size: 1em;
+}
+
+button#search-btr:hover{
+    background-color: #36802d;
+    color:greenyellow;
+}
+/* ------------------------------------------------------- */
+
+#blankspace{
+    width:100%;
+    height:85vh;
+}
+
+#room-selection {
+    width:70%;
+    height:85vh;
+    display:grid;
+    display:none;
+    margin:auto;
+    margin-top: 30px;
+
+    grid-template-columns: 30% 50% 20%;
+    grid-template-rows: repeat(3,1fr);
+    grid-row-gap: 15px;
+
+}
+
+.description{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.price{
+    justify-self: center;
+}
+
+img{
+    width:90%;
+    height: 90%;
+    display:block;
+    object-fit: cover;
+    margin:auto;
+    margin-top: 15px;
+}
+
+#footer{
+    width:100%;
+    height:13vh;
+    background-color: 	#234d20;
+    margin-top:1em;
+    text-align: center;
+    color:white;
+
+}
+
+.price p:nth-child(1){
+    font-size: 2em;
+}
+
+button.book-btr{
+    width:100px;
+    height:50px;
+    font-size: 1.5em;
+    background-color: #36802d;
+    color:white;
+    border:none;
+    border-radius: 30px;
+}
+button.book-btr:hover{
+    background-color:#234d20;
+}
+
+
+
+.wrapper{
+    margin:auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#footer img{
+    margin:15px;;
+    display: inline;
+   
+}

@@ -1,0 +1,139 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin:0;
+  padding: 0;
+}
+
+.topnav {
+    background-color: #77ab59;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+   
+  .topnav a {
+    display: block;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.3em;
+  }
+  
+ 
+  .topnav a:hover {
+    background-color: #234d20;
+    -webkit-transition-duration: 0.7s;
+  }
+  
+  #footer{
+    width:100%;
+    height:13vh;
+    background-color: 	#234d20;
+    margin-top:1em;
+    text-align: center;
+    color:white;
+    bottom: 0;
+}
+  
+#footer img{
+  margin:15px;;
+  display: inline;
+}
+  .topnav a.active {
+    background-color: rgb(141, 158, 142);
+    color: white;
+  }
+  .dropbtn {
+    background-color: rgb(32, 216, 39);
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 10px 8px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .container {
+    width: 90%;
+    margin: auto;
+    overflow:hidden;
+    border: 3px solid darkgreen;
+    height: 670px;
+    margin-top: 20px;
+    max-width: 800px;  
+}
+  
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  body{
+    background-color:  	#f0f7da;
+  }
+  body.a{
+    background-color:  	#f0f7da;
+  }
+  body.b{
+    background-color:  	#f0f7da;
+  }
+  body.c{
+    background-color:  	#f0f7da;
+  }
+
+  .column {
+    float: center;
+    width: 50%;
+    margin-top: 6px;
+    margin-left: 200px;
+    padding: 20px;
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  #editb {
+    background-color: rgb(0, 0, 252);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #editb:hover {
+    background-color: aqua;
+  }
+  
+  .welcome{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(2, 2, 2);
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="checkin.css" type="text/css">
+    <script src="checkin.js" type="text/javascript"></script>
+    <title>Check In Out</title>
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li><a href="../home/homepage.html">Home</a></li>
+            <li><a href=#>Book</a></li>
+            <li><a href="../home/contact/contact.html">Contact</a></li>
+            <li><a href=#>About</a></li>
+            <li style="float:right;"><a href="admin.html">Admin</a> </li>
+        </ul>
+    </div><!-- End of top navigation bar -->
+
+    <div id="bodycontent">
+        <div class="sidenav">
+            <ul>
+                <li><a href="#">Customer Detail</a></li>
+                <li><a href="admin-check-in.html">Check In/Out</a></li>
+                <li><a href="admin-room-availability.html">Room Availability</a></li>
+                <li><a href="admin-confirm.html">Booking Confirmation</a></li>
+            </ul>
+        </div> <!-- End of sidenav -->
+
+       
+        <div class="mainbody">
+            <div id="bodytitle">
+                <h2>Check In / Out</h2>
+            </div>
+
+            <div>
+                <div class="check-type">Check In</div><!--
+                  --><div class="check-type">Check Out</div>
+            </div>
+
+            <div id="search-booking">
+                <p>Customer Name  </p> 
+                <input type="text" name="customer-id" id="customer-id">
+                <p>Reference Number  </p>
+                <input type="text" name="reference-no" id="reference-no">
+                <button id="search-booking-btr" onclick='searchOrder(orderlist,"reference-no","customer-id","show-book-list")'>Search</button>
+            </div>
+
+            <div id="show-book-list">
+                <!-- <div class="book-item">
+                    <h3>John Legend</h3>
+                    <p>Single Room</p>
+                    <p>Reference No : A12345</p>
+                    <a href="#">Check In</a>
+                </div> -->
+                
+              
+            </div> <!-- End of show-book-list -->
+
+           
+        </div><!-- End of mainbody -->
+        
+    </div><!-- End of body content -->
+
+    <div class="footer">
+        <a href="http://www.facebook.com">
+            <img src="img/facebooklogo.png" alt="facebooklogo" style="width:50px;height:50px;border:0;">
+        </a>
+        <a href="http://www.instagram.com">
+            <img src="img/instagramlogo.png" alt="instagramlogo" style="width:50px;height:50px;border:0;">
+        </a>
+        <a href="http://www.twitter.com">
+            <img src="img/twitterlogo.png" alt="twitterlogo" style="width:50px;height:50px;border:0;">
+        </a>   
+    </div>
+
+</body>
+</html>
